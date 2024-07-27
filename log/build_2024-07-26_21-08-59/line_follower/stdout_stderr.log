@@ -1,0 +1,37 @@
+/home/anthonykpinson/.local/lib/python3.8/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../build/line_follower/line_follower.egg-info
+writing ../../build/line_follower/line_follower.egg-info/PKG-INFO
+writing dependency_links to ../../build/line_follower/line_follower.egg-info/dependency_links.txt
+writing entry points to ../../build/line_follower/line_follower.egg-info/entry_points.txt
+writing requirements to ../../build/line_follower/line_follower.egg-info/requires.txt
+writing top-level names to ../../build/line_follower/line_follower.egg-info/top_level.txt
+writing manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+reading manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+writing manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/anthonykpinson/robot_ws/build/line_follower/build
+creating /home/anthonykpinson/robot_ws/build/line_follower/build/lib
+creating /home/anthonykpinson/robot_ws/build/line_follower/build/lib/line_follower
+copying line_follower/line_follower.py -> /home/anthonykpinson/robot_ws/build/line_follower/build/lib/line_follower
+copying line_follower/__init__.py -> /home/anthonykpinson/robot_ws/build/line_follower/build/lib/line_follower
+running install
+running install_lib
+creating /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower
+copying /home/anthonykpinson/robot_ws/build/line_follower/build/lib/line_follower/line_follower.py -> /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower
+copying /home/anthonykpinson/robot_ws/build/line_follower/build/lib/line_follower/__init__.py -> /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower
+byte-compiling /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower/line_follower.py to line_follower.cpython-38.pyc
+byte-compiling /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/anthonykpinson/robot_ws/install/line_follower/share/ament_index
+creating /home/anthonykpinson/robot_ws/install/line_follower/share/ament_index/resource_index
+creating /home/anthonykpinson/robot_ws/install/line_follower/share/ament_index/resource_index/packages
+copying resource/line_follower -> /home/anthonykpinson/robot_ws/install/line_follower/share/ament_index/resource_index/packages
+copying package.xml -> /home/anthonykpinson/robot_ws/install/line_follower/share/line_follower
+running install_egg_info
+Copying ../../build/line_follower/line_follower.egg-info to /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower-0.0.0-py3.8.egg-info
+running install_scripts
+Installing line_follower script to /home/anthonykpinson/robot_ws/install/line_follower/lib/line_follower
+writing list of installed files to '/home/anthonykpinson/robot_ws/build/line_follower/install.log'
