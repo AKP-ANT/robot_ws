@@ -1,0 +1,37 @@
+[0.525s] Invoking command in '/home/anthonykpinson/robot_ws/build/line_follower': PYTHONPATH=/home/anthonykpinson/robot_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/anthonykpinson/robot_ws/build/line_follower/build
+[0.611s] /home/anthonykpinson/.local/lib/python3.8/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.611s]   warnings.warn(
+[0.731s] running develop
+[0.731s] /home/anthonykpinson/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.731s]   warnings.warn(
+[0.869s] Removing /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line-follower.egg-link (link to .)
+[0.887s] Invoked command in '/home/anthonykpinson/robot_ws/build/line_follower' returned '0': PYTHONPATH=/home/anthonykpinson/robot_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/anthonykpinson/robot_ws/build/line_follower/build
+[0.890s] Invoking command in '/home/anthonykpinson/robot_ws/src/line_follower': PYTHONPATH=/home/anthonykpinson/robot_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/anthonykpinson/robot_ws/build/line_follower/build install --record /home/anthonykpinson/robot_ws/build/line_follower/install.log --install-scripts $base/lib/line_follower --single-version-externally-managed install_data --force
+[0.971s] /home/anthonykpinson/.local/lib/python3.8/site-packages/setuptools/dist.py:788: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.971s]   warnings.warn(
+[1.041s] running egg_info
+[1.050s] writing ../../build/line_follower/line_follower.egg-info/PKG-INFO
+[1.050s] writing dependency_links to ../../build/line_follower/line_follower.egg-info/dependency_links.txt
+[1.050s] writing entry points to ../../build/line_follower/line_follower.egg-info/entry_points.txt
+[1.050s] writing requirements to ../../build/line_follower/line_follower.egg-info/requires.txt
+[1.050s] writing top-level names to ../../build/line_follower/line_follower.egg-info/top_level.txt
+[1.139s] reading manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[1.140s] writing manifest file '../../build/line_follower/line_follower.egg-info/SOURCES.txt'
+[1.140s] running build
+[1.140s] running build_py
+[1.140s] running install
+[1.144s] running install_lib
+[1.154s] creating /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower
+[1.154s] copying /home/anthonykpinson/robot_ws/build/line_follower/build/lib/line_follower/line_follower.py -> /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower
+[1.154s] copying /home/anthonykpinson/robot_ws/build/line_follower/build/lib/line_follower/__init__.py -> /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower
+[1.154s] byte-compiling /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower/line_follower.py to line_follower.cpython-38.pyc
+[1.154s] byte-compiling /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower/__init__.py to __init__.cpython-38.pyc
+[1.155s] running install_data
+[1.155s] copying resource/line_follower -> /home/anthonykpinson/robot_ws/install/line_follower/share/ament_index/resource_index/packages
+[1.155s] copying package.xml -> /home/anthonykpinson/robot_ws/install/line_follower/share/line_follower
+[1.155s] running install_egg_info
+[1.165s] Copying ../../build/line_follower/line_follower.egg-info to /home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages/line_follower-0.0.0-py3.8.egg-info
+[1.165s] running install_scripts
+[1.204s] Installing line_follower script to /home/anthonykpinson/robot_ws/install/line_follower/lib/line_follower
+[1.204s] writing list of installed files to '/home/anthonykpinson/robot_ws/build/line_follower/install.log'
+[1.220s] Invoked command in '/home/anthonykpinson/robot_ws/src/line_follower' returned '0': PYTHONPATH=/home/anthonykpinson/robot_ws/build/line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anthonykpinson/robot_ws/install/line_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/line_follower build --build-base /home/anthonykpinson/robot_ws/build/line_follower/build install --record /home/anthonykpinson/robot_ws/build/line_follower/install.log --install-scripts $base/lib/line_follower --single-version-externally-managed install_data --force
